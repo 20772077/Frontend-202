@@ -1,0 +1,131 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #9aa3ba;
+    line-height: 26px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+.btn-free {
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #1085e4;
+}
+.grid h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.grid h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b56;
+}
+.grid-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+/*Домашняя работа ниже этого комментария*/
+.page-subscribe h2 {
+    font-size: 40px;
+    color: white;
+}
+.page-subscribe h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+.page-subscribe button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #1085e4;
+}
+.page-subscribe input {
+    font-size: 12px;
+    color: #9aa3ba;
+}
+
+.page-software h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+
+.page-stat h2{
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.page-stat h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+.page-stat li{
+    color: #1085e4;
+}
+.page-stat li span{
+    font-size: 40px;
+    display: block;
+    color: #9aa3ba;
+}
+
+.page-app h2{
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.p1 {
+    font-size: 18px;
+}
+.page-app a {
+    background-color: black;
+}
+
+.page-graph1 h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.page-graph1 button {
+    background-color: #1085e4;
+}
+
+.page-graph2  h2{
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.page-graph2 button {
+    background-color: #1085e4;
+}
+
+.page-screen h2{
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.page-screen h2 span {
+    display: block;
+    color: #1085e4;
+    font-size: 16px;
+}
