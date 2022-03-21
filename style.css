@@ -5,14 +5,73 @@ body{
     color: #9aa3ba;
     line-height: 26px;
 }
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
 a {
     text-decoration: none;
 }
+/*Заголовки*/
 h1 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
     color: #192b59;
+    max-width: 540px;
+    line-height: 1.1;
+    letter-spacing: -2.5px;
+    margin-bottom: 65px;
 }
+.title-h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b56;
+    line-height: 1.2;
+    letter-spacing: -2.5px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.title-h2>span {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.page-software-icon {
+    display: block;
+    background-image: url(/Frontend/www/images/forma-2.png);
+background-repeat: no-repeat;
+width: 103px;
+height: 92px;
+}
+.page-subscribe-list{
+    height: 300px;
+    overflow: hidden;
+    overflow: scroll;
+}
+.page-subscribe-list dt{
+    font-weight: 700;
+    color: #6e7ea9;
+    margin-bottom: 10px;
+    /*background-position: -30px 0px;*/
+}
+.page-subscribe-list dd{
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+.page-software-flex {
+    display: flex;
+    justify-content: end;
+}
+.page-software-flex>div {
+    flex-basis: 55%;
+}
+
+/*Конец Заголовков*/
 .nav {
     font-size: 12px;
     font-weight: 700;
@@ -22,15 +81,25 @@ h1 {
     margin: 0;
     padding: 0;
 }
-
+.nav-item {
+     color: #6e7ea9;
+ }
 a:hover {
-    color:darkgreen;
+    color: #192b56;
+}
+.btn-group a + a {
+    margin-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    /*background-color: #1085e4;*/
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px;
+    letter-spacing: 2.7px;
+
 }
 
-.grid-item:nth-child(3) {
-    color: darkorchid;
-    background: deeppink;
-}
 .btn-primary {
     color: #fff;
     text-transform: uppercase;
@@ -40,12 +109,12 @@ a:hover {
     padding: 20px 40px;
     border-radius: 30px;
     letter-spacing: 2.7px;
-
+    height: 15px;
 }
 .btn-secondary {
     color: #fff;
+    background-color: #9aa3ba;
     text-transform: uppercase;
-    background-color: #1085e4;
     font-size: 12px;
     font-weight: 700;
     padding: 20px 40px;
@@ -62,18 +131,6 @@ a:hover {
     padding: 20px 40px;
     border-radius: 30px;
     letter-spacing: 2.7px; 
-}
-.btn-group a + a {
-    margin-left: 30px;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #1085e4;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 20px 40px;
-    border-radius: 30px;
-    letter-spacing: 2.7px;
-
 }
 .btn-free {
     font-weight: 400;
@@ -98,15 +155,20 @@ a:hover {
     font-weight: 600;
     color: #1085e4;
 }
-/*Домашняя работа ниже этого комментария*/
-.page-subscribe h2 {
+/*Домашняя работа ЛР 13*/
+.box-subscribe-child p{
+    text-align: left;
+}
+.page-subscribe .title-h2 {
     font-size: 40px;
-    color: #192b59;
+    color: #fff;
+    text-align: left;
 }
 .page-subscribe h2 span {
     font-size: 14px;
     color: #1085e4;
     display: block;
+    text-align: left;
 }
 .page-subscribe button {
 /*    font-size: 14px;
@@ -120,11 +182,9 @@ a:hover {
     font-weight: 700;
     padding: 20px 40px;
     border-radius: 30px;
+    border-color: #1085e4;
 }
-.page-subscribe input {
-    font-size: 12px;
-    color: #9aa3ba;
-}
+/* Конец ЛР 13*/
 
 .page-software h2 {
     font-size: 40px;
@@ -138,7 +198,7 @@ a:hover {
     font-weight: 700;
 }
 .page-stat h2 span {
-    font-size: 14px;
+    font-size: 12px;
     color: #1085e4;
     display: block;
 }
@@ -177,6 +237,7 @@ a:hover {
     font-weight: 700;
     padding: 20px 40px;
     border-radius: 30px;
+    border-color: #1085e4;
 }
 
 .page-graph2  h2{
@@ -193,6 +254,7 @@ a:hover {
     font-weight: 700;
     padding: 20px 40px;
     border-radius: 30px;
+    border-color: #1085e4;
 }
 
 .page-screen h2{
@@ -246,4 +308,209 @@ a:hover {
     font-weight: 700;
     padding: 20px 40px;
     border-radius: 30px;
+    border-color: #1085e4;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center; 
+    align-items: center;
+}
+.nav li {
+    padding: 10px;
+}
+.list-stat {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.list-stat>li {
+    font-size: 12px;
+    color: #1085e4;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-top: 55px;
+}
+.list-stat>li span {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+
+}
+button:hover {
+   background-color: #9aa3ba;
+   border-color: #9aa3ba;
+}
+
+.logo {
+    display: block;
+    background-image: url(../images/logo.png);
+    width: 181px;
+    height: 49px;
+}  
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    margin-bottom: 305px;
+}
+
+.page-header {
+    background-image: url(../images/HeaderBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 332px 0; 
+    position: relative;
+}
+
+.screen-img {
+display: block;
+background-image: url(../images/sk1.png);
+background-repeat: no-repeat;
+width: 895px;
+height: 740px;
+position: absolute;
+top: 200;
+right: 0px;
+}
+
+.page-company {
+    background-image: url(../images/);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* страницы */
+.page-stat {
+    background-color: #edf6ff;
+    padding: 115px 0px 95px 0px;
+}
+/*START LR13*/
+.page-subscribe{
+    background: rgba(10,55,255,1);
+background: -moz-linear-gradient(left, rgba(10,55,255,1) 0%, rgba(76,160,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(10,55,255,1)), color-stop(100%, rgba(76,160,255,1)));
+background: -webkit-linear-gradient(left, rgba(10,55,255,1) 0%, rgba(76,160,255,1) 100%);
+background: -o-linear-gradient(left, rgba(10,55,255,1) 0%, rgba(76,160,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(10,55,255,1) 0%, rgba(76,160,255,1) 100%);
+background: linear-gradient(to right, rgba(10,55,255,1) 0%, rgba(76,160,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a37ff', endColorstr='#4ca0ff', GradientType=1 );
+padding: 10px 0px;
+}
+.box-subscribe{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.box-subscribe-user{
+    position: relative;
+}
+.box-subscribe-user .btn-primary {
+position: absolute;
+top: 8px;
+right: 10px;
+}
+.box-subscribe-user input{
+    border: 2px solid #3f5cb1;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 20px 15px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    /*shadow*/
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
+    /*end shadow*/
+}
+/*END LR13*/
+.box-subscribe-child {
+    flex-basis: 49%;
+}
+.box-subscribe-user input:focus{
+    outline: none;
+}
+
+.list-company{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-company-item{
+    display: block;
+    flex-basis: 20%;
+    background-repeat: no-repeat;
+}
+/*Добавить размеры изображений*/
+.company-one{
+    background-image: url(/Frontend/www/images/Logo1.png);
+width: 10px;
+height: 10px;
+}
+.company-two{
+    background-image: url(/Frontend/www/images/Logo2.png);
+}
+.company-three{
+    background-image: url(/Frontend/www/images/Logo3.png);
+}
+.company-four{
+    background-image: url(/Frontend/www/images/Logo4.png);
+}
+/*LR 14*/
+.lr14 {
+    display: block;
+}
+.lr14h2 {
+    
+}
+.lr14layer1 {
+    width: 50%;
+    height: 50%;
+}
+/*LR 16*/
+.lr16d{
+    display: flex;
+    display: grid;
+    grid-template-columns: [a]20px [b]150px [c]150px;
+    grid-template-rows: [d]20px [e]20px;
+}
+.box-clients{
+     display: flex;
+     justify-content: center;
+     
+}
+.lr16h2{
+    display: block;
+}
+.lr16woman {
+    border-radius: 25px;
+    grid-column: a/b;
+    grid-row: d/e;
+}
+.lr16pos{
+    grid-column: c;
+    grid-row: d;
+}
+.lr16ceo{
+    grid-column: c;
+    grid-row: e;
+}
+.b{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.lr16pos2{
+    align-content: center;
 }
