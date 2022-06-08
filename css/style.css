@@ -101,7 +101,6 @@ a:hover {
     letter-spacing: 2.7px;
 
 }
-
 .btn-primary {
     color: #fff;
     text-transform: uppercase;
@@ -193,7 +192,6 @@ a:hover {
     color: #192b59;
     font-weight: 700;
 }
-
 .page-stat h2{
     font-size: 40px;
     color: #192b59;
@@ -212,14 +210,59 @@ a:hover {
     display: block;
     color: #9aa3ba;
 }
+.content-app .title-h2{
+    margin-bottom: 35px;
+}
+.page-app{
+    padding: 69px 0px 82px 0px;
+}
+.page-app .wrap{
+    position: relative;
+}
+.page-app-list{
+    padding: 0;
+    list-style-type: none;
+    margin-left: -7px;
+}
+.page-app-list>li {
+    display: inline-block;
+}
+.page-app-list>li>a{
+    background-image: url(../images/APPstore.png);
+    background-repeat: no-repeat;
+    width: 152px;
+    height: 53px;
 
+}
+.page-app-android{
+    background-image: url(../images/GooglePlay.png);
+    background-repeat: no-repeat;
+    width: 152px;
+    height: 53px;
+}
+.page-app-ios{
+    background-image: url(../images/APPstore.png);
+    background-repeat: no-repeat;
+    width: 152px;
+    height: 53px;
+}
+.video-app{
+    position: absolute;
+    right: 10px;
+}
 .page-app h2{
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
 }
 .p1 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c4d2dd;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
 }
 .page-app a {
     background-color: black;
@@ -258,7 +301,32 @@ a:hover {
     border-radius: 30px;
     border-color: #1085e4;
 }
-
+.page-graph2-text {
+    margin-bottom: 55px;
+}
+.page-graph2 .title-h2{
+max-width: 550px;
+margin-top: 12px;
+margin-bottom: 25px;
+}
+.setting-icon {
+    display: block;
+    background-image: url(../images/HW-1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 117px;
+    height: 99px;
+}
+.flex-graph2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-screen{
+    text-align: center;
+    margin: 0 auto;
+    padding: 115px 0px 0px 0px;
+}
 .page-screen h2{
     font-size: 40px;
     color: #192b59;
@@ -312,7 +380,11 @@ a:hover {
     border-radius: 30px;
     border-color: #1085e4;
 }
-
+.page-form{
+    padding: 35px 0px 60px 0px;
+    background-image: inherit;
+    background-color: #eef6fd;
+}
 .nav {
     display: flex;
     padding: 10px;
@@ -378,11 +450,13 @@ button:hover {
 display: block;
 background-image: url(../images/sk1.png);
 background-repeat: no-repeat;
-width: 895px;
-height: 740px;
+width: 500px;
+height: 413px;
+/*width: 895px;
+height: 740px;*/
 position: absolute;
 top: 190px;
-right: 0px;
+right: 50px;
 }
 
 .page-company {
@@ -473,9 +547,9 @@ height: 10px;
 .lr14 {
     display: block;
 }
-.lr14h2 {
+/*.lr14h2 {
     
-}
+}*/
 .lr14layer1 {
     width: 50%;
     height: 50%;
@@ -533,12 +607,6 @@ height: 10px;
 }
 .page-plan{
     padding: 81px 0px 121px 0px;
-}
-.wrap{
-    max-width: 1110px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .box-price{
     display: flex;
@@ -734,4 +802,359 @@ height: 10px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 10px 20px #f4f4f4;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background: transparent;
+}
+/* Заголовки  */
+.page-team .title-h2-40 span {
+    color: #85c8ff;
+}
+.title-h2-40 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.1px;
+}
+
+.title-h2-40 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1085e4;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+
+/* Конец заголовки  */
+
+
+/* Блок page-team */
+
+.page-team {
+    text-align: center;
+    background-image: url(..//img/team-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 20px 0;
+}
+.box-team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.box-team-item {
+    background-color: #fff;
+    flex-basis: 32%;
+    box-shadow: 0 5px 6px #f4f4f4;
+    position: relative;
+    padding: 190px 15px 40px 15px;
+}
+
+.box-team-item .position {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1a88e1;
+    font-weight: 900;
+    letter-spacing: 2.1px;
+}
+
+.box-team-item .name {
+    font-size: 26px;
+    color: #192b59;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: -0.5px;
+}
+
+.box-team .avatar {
+    position: absolute;
+    top: -85px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.box-team-item .button-more span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/team-btn.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-position: 0px -1px;
+}
+
+.box-team-item .button-more:hover span{
+    background-position: 0px -22px;
+    border-radius: 100%;
+}
+.box-team-item .btn-team{
+    background-color: #1a88e1;
+    border-radius: 100%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+     margin: 0 auto;
+     border: none;
+     align-items: center;
+}
+
+.box-team-item .button-more:focus {
+    outline: none;
+}
+.social-team{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.btn-fb span{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/team-btn.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: -60px -2px;
+    border-radius: 100%;
+}
+
+.btn-fb:hover span{
+    background-position: -60px -22px;
+}
+/* Конец Блок page-team */
+
+/*Вторая кнопка*/
+.box-team-item .btn-team1{
+    background-color: #1a88e1;
+    border-radius: 100%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+     margin: 0 auto;
+     border: none;
+     align-items: center;
+}
+.box-team-item .button-more1 span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/team-btn.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-position: 0px -1px;
+}
+.box-team-item .button-more1:hover span{
+    background-position: 0px -22px;
+    border-radius: 100%;
+}
+.box-team-item .button-more1:focus {
+    outline: none;
+}
+.social-team1{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0px;
+}
+/*конец второй кнопки*/
+
+/*третья кнопка*/
+.box-team-item .btn-team2{
+    background-color: #1a88e1;
+    border-radius: 100%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+     margin: 0 auto;
+     border: none;
+     align-items: center;
+}
+.box-team-item .button-more2 span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/team-btn.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-position: 0px -1px;
+}
+.box-team-item .button-more2:hover span{
+    background-position: 0px -22px;
+    border-radius: 100%;
+}
+.box-team-item .button-more2:focus {
+    outline: none;
+}
+.social-team2{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0px;
+}
+/*конец третьей кнопки*/
+/*footer*/
+.footer{
+background-color: #192b59;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-flex>p {
+    color: #dce4ec;
+    text-transform: uppercase;
+}
+.social-media{
+    padding: 0px;
+    justify-content: center;
+}
+/*end of footer*/
+.contact-form input{
+    font-size: 14px;
+    border: 2px solid #dce4ec;
+    padding: 25px 80px 25px 35px;
+    border-radius: 35px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact-form textarea{
+    font-size: 14px;
+    border: 2px solid #dce4ec;
+    padding: 25px 80px 25px 35px;
+    border-radius: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 160px;
+    resize: none;
+}
+.contact-form-item{
+    margin-bottom: 20px;
+    position: relative;
+}
+.contact-form-text{
+    margin-bottom: 35px;
+}
+.flex-form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.flex-form img{
+    margin-right: 60px;
+}
+.flex-form>div{
+    flex-basis: 50%;
+}
+.contact-form .btn-primary {
+    position: relative;
+    padding: 22px 40px 22px 65px;
+    max-width: 230px;
+    letter-spacing: 2px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+}
+.contact-form input{
+    font-size: 14px;
+    border: 2px solid #dce4ec;
+    padding: 25px 80px 25px 35px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact-form textarea{
+    font-size: 14px;
+    border: 2px solid #dce4ec;
+    padding: 25px 80px 25px 35px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact-form input:focus{
+    outline: none;
+}
+.contact-form textarea:focus{
+    outline: none;
+}
+.contact-form textarea{
+    min-height: 160px;
+    resize: none;
+}
+.contact-form .btn-primary::before{
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 55px;
+    top: 50%;
+}
+.contact-form-name::after {
+    background-image: url(../images/user-28.png);
+    width: 14px;
+    height: 16px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.grid-icon{
+    background-repeat: no-repeat;
+    display: block;
+    height: 92px;
+    margin: 0 auto 21px;
+    background-position: center;
+}
+.grid-icon-1 {
+    background-image: url(../images/icon1.png);
+    background-size: 73px 79px;
+}
+.grid-icon-2 {
+    background-image: url(../images/icon2.png);
+    background-size: 89px 85px;
+}
+.grid-icon-3 {
+    background-image: url(../images/icon3.png);
+    background-size: 79px 82px;
+}
+.grid-icon-4 {
+    background-image: url(../images/icon4.png);
+    background-size: 109px 92px;
+}
+.grid-icon-5 {
+    background-image: url(../images/icon5.png);
+    background-size: 85px 90px;
+}
+.grid-icon-6 {
+    background-image: url(../images/icon6.png);
+    background-size: 100px 87px;
+}
+.screen{
+margin-top: 36px;
+margin-bottom: -7px;
+width: 100%;
+max-width: 1280px;
+}
+li {
+    list-style-type: none;
 }
