@@ -34,7 +34,7 @@ h1 {
     text-align: center;
     margin: 0 auto;
 }
-.title-h2>span {
+.title-h2 span {
     display: block;
     font-size: 16px;
     font-weight: 800;
@@ -248,12 +248,16 @@ a:hover {
 }
 .video-app{
     position: absolute;
-    right: 10px;
+    top: -61px;
+    right: -172px;
 }
 .page-app h2{
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
+}
+.p1 .title-h2 {
+    margin-bottom: 36px;
 }
 .p1 {
     font-size: 16px;
@@ -267,7 +271,21 @@ a:hover {
 .page-app a {
     background-color: black;
 }
-
+.content-app{
+    width: 55%;
+}
+.intro{
+    color: rgba(0, 0, 0, 0.05);
+    font-size: 300px;
+    font-weight: 900;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
+    text-align: center;
+    margin: 0;
+}
 .page-graph1 h2 {
     font-size: 40px;
     color: #192b59;
@@ -284,11 +302,23 @@ a:hover {
     border-radius: 30px;
     border-color: #1085e4;
 }
-
-.page-graph2  h2{
+.page-graph2{
+    background-image: url(../images/bg-control.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 117px 0px 137px 0px;
+}
+.page-graph2 h2{
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
+}
+.page-graph2 .title-h2{
+    margin-top: 12px;
+    max-width: 560px;
+    margin-bottom: 26px;
+    text-align: start;
 }
 .page-graph2 button {
     margin-left: 30px;
@@ -303,11 +333,6 @@ a:hover {
 }
 .page-graph2-text {
     margin-bottom: 55px;
-}
-.page-graph2 .title-h2{
-max-width: 550px;
-margin-top: 12px;
-margin-bottom: 25px;
 }
 .setting-icon {
     display: block;
@@ -442,7 +467,7 @@ button:hover {
     background-image: url(../images/HeaderBg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 0 332px 0; 
+    padding: 0 0 100px 0; 
     position: relative;
 }
 
@@ -464,7 +489,25 @@ right: 50px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.page-company{
+    background-image: url(../images/bg-company.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 106px 0 100px;
+}
+.list-company{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;}
 /* страницы */
 .page-stat {
     background-color: #edf6ff;
@@ -514,34 +557,29 @@ right: 10px;
 .box-subscribe-user input:focus{
     outline: none;
 }
-
-.list-company{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .list-company-item{
     display: block;
-    flex-basis: 20%;
-    background-repeat: no-repeat;
 }
 /*Добавить размеры изображений*/
 .company-one{
     background-image: url(/Frontend/www/images/Logo1.png);
-width: 10px;
-height: 10px;
+width: 198px;
+height: 58px;
 }
 .company-two{
     background-image: url(/Frontend/www/images/Logo2.png);
+    width: 200px;
+    height: 69px;
 }
 .company-three{
     background-image: url(/Frontend/www/images/Logo3.png);
+    width: 201px;
+    height: 47px;
 }
 .company-four{
     background-image: url(/Frontend/www/images/Logo4.png);
+    width: 200px;
+    height: 69px;
 }
 /*LR 14*/
 .lr14 {
@@ -664,7 +702,7 @@ height: 10px;
     display: block;
     width: 48%;
     height: 986px;
-    background-image: url(/Frontend/www/images/layer1.png);
+    background-image: url(/Frontend/www/images/lauer1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -672,6 +710,20 @@ height: 10px;
     left: -2%;
     bottom: -39px;
     z-index: -1;
+}
+.page-graph1 {
+    background-image: url(../images/bg-analytics.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 117px 0 137px 0;
+}
+.page-graph1-text {
+    margin-bottom: 54px;
+}
+.flex-graph1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .page-subscribe-list::-webkit-scrollbar{
     width: 4px; 
@@ -820,7 +872,6 @@ button {
     line-height: 1.2;
     letter-spacing: -1.1px;
 }
-
 .title-h2-40 span {
     display: block;
     font-size: 18px;
@@ -839,7 +890,7 @@ button {
 
 .page-team {
     text-align: center;
-    background-image: url(..//img/team-bg.png);
+    background-image: url(../images/bg-14.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -887,7 +938,7 @@ button {
     display: block;
     width: 20px;
     height: 20px;
-    background-image: url(../img/team-btn.png);
+    background-image: url(../images/team-btn.png);
     background-repeat: no-repeat;
     margin: 0 auto;
     border-radius: 100%;
